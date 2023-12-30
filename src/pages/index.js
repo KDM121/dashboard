@@ -13,10 +13,10 @@ export default function Home() {
           </h1>
         </div>
         {/*main services*/}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-6 gap-12">
           {/*Service 1*/}
-          <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full mx-6">
-            <figure className="w-64 h-48 overflow-hidden">
+          <div className="card w-full md:w-72 bg-base-100 shadow-xl image-full mx-6">
+            <figure className="w-48 h-32 overflow-hidden">
               <img
                 src="https://www.proxmox.com/android-chrome-512x512.png"
                 className="w-full h-full object-cover"
@@ -34,8 +34,8 @@ export default function Home() {
             </div>
           </div>
           {/*Service 2*/}
-          <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full mx-6">
-            <figure className="w-64 h-48 overflow-hidden">
+          <div className="card w-full md:w-72 bg-base-100 shadow-xl image-full mx-6">
+            <figure className="w-48 h-32 overflow-hidden">
               <img
                 src="https://www.kasmweb.com/android-chrome-512x512.png"
                 className="w-full h-full object-cover"
@@ -52,8 +52,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full mx-6">
-            <figure className="w-64 h-48 overflow-hidden">
+          <div className="card w-full md:w-72 bg-base-100 shadow-xl image-full mx-6">
+            <figure className="w-48 h-32 overflow-hidden">
               <img
                 src="https://github.com/everywall/ladder/raw/main/assets/pigeon.svg"
                 className="w-full h-full object-cover"
@@ -70,8 +70,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full mx-6">
-            <figure className="w-64 h-48 overflow-hidden">
+          <div className="card w-full md:w-72 bg-base-100 shadow-xl image-full mx-6">
+            <figure className="w-48 h-32 overflow-hidden">
               <img
                 src="https://www.kieranmcdonnell.com/favicon.ico"
                 className="w-full h-full object-cover"
@@ -88,8 +88,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full mx-6">
-            <figure className="w-64 h-48 overflow-hidden">
+          <div className="card w-full md:w-72 bg-base-100 shadow-xl image-full mx-6">
+            <figure className="w-48 h-32 overflow-hidden">
               <img
                 src="https://www.openmediavault.org/apple-touch-icon.png"
                 className="w-full h-full object-cover"
@@ -106,8 +106,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full mx-6">
-            <figure className="w-64 h-48 overflow-hidden">
+          <div className="card w-full md:w-72 bg-base-100 shadow-xl image-full mx-6">
+            <figure className="w-48 h-32 overflow-hidden">
               <img
                 src="https://github.com/alexta69/metube/blob/master/favicon/android-chrome-384x384.png?raw=true"
                 className="w-full h-full object-cover"
@@ -124,8 +124,26 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full mx-6">
-            <figure className="w-64 h-48 overflow-hidden">
+          <div className="card w-full md:w-72 bg-base-100 shadow-xl image-full mx-6">
+            <figure className="w-48 h-32 overflow-hidden">
+              <img
+                src="http://192.168.0.13:5001/icon.svg"
+                className="w-full h-full object-cover"
+              />
+            </figure>
+            <div className="card-body flex flex-col">
+              <div className="card-actions justify-end">
+                <a
+                  className="btn btn-primary btn-lg"
+                  href="http://192.168.0.13:5001"
+                >
+                  Dockge
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="card w-full md:w-72 bg-base-100 shadow-xl image-full mx-6">
+            <figure className="w-48 h-32 overflow-hidden">
               <img
                 src="https://www.proxmox.com/android-chrome-512x512.png"
                 className="w-full h-full object-cover"
@@ -142,8 +160,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full mx-6">
-            <figure className="w-64 h-48 overflow-hidden">
+          <div className="card w-full md:w-72 bg-base-100 shadow-xl image-full mx-6">
+            <figure className="w-48 h-32 overflow-hidden">
               <img
                 src="https://www.proxmox.com/android-chrome-512x512.png"
                 className="w-full h-full object-cover"
@@ -160,8 +178,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full mx-6">
-            <figure className="w-64 h-48 overflow-hidden">
+          <div className="card w-full md:w-72 bg-base-100 shadow-xl image-full mx-6">
+            <figure className="w-48 h-32 overflow-hidden">
               <img
                 src="https://www.proxmox.com/android-chrome-512x512.png"
                 className="w-full h-full object-cover"
@@ -178,8 +196,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full mx-6">
-            <figure className="w-64 h-48 overflow-hidden">
+          <div className="card w-full md:w-72 bg-base-100 shadow-xl image-full mx-6">
+            <figure className="w-48 h-32 overflow-hidden">
               <img
                 src="https://www.proxmox.com/android-chrome-512x512.png"
                 className="w-full h-full object-cover"
@@ -196,26 +214,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full mx-6">
-            <figure className="w-64 h-48 overflow-hidden">
-              <img
-                src="https://www.proxmox.com/android-chrome-512x512.png"
-                className="w-full h-full object-cover"
-              />
-            </figure>
-            <div className="card-body flex flex-col">
-              <div className="card-actions justify-end">
-                <a
-                  className="btn btn-primary btn-lg"
-                  href="https://192.168.0.10:8006"
-                >
-                  Proxmox
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full mx-6">
-            <figure className="w-64 h-48 overflow-hidden">
+          <div className="card w-full md:w-72 bg-base-100 shadow-xl image-full mx-6">
+            <figure className="w-48 h-32 overflow-hidden">
               <img
                 src="https://www.proxmox.com/android-chrome-512x512.png"
                 className="w-full h-full object-cover"
